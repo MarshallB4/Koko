@@ -1,0 +1,198 @@
+[ 
+  {
+    "title": "Tonkotsu Ramen",
+    "url": "menu.html#ramen",
+    "category": "Menu",
+    "desc": "48-hour simmered tonkotsu broth, chashu (braised pork belly slice), kikurage, bean sprout, green onion.",
+    "tags": ["ramen","pork broth","tonkotsu","chashu","noodles","kikurage"]
+  },
+  {
+    "title": "Spicy Tonkotsu Ramen",
+    "url": "menu.html#ramen",
+    "category": "Menu",
+    "desc": "Tonkotsu base with Korean chili paste, doenjang minced pork, corn, bean sprout, green onion.",
+    "tags": ["ramen","spicy","tonkotsu","doenjang","minced pork","corn","noodles"]
+  },
+
+  {
+    "title": "Karaage Rice Bowl",
+    "url": "menu.html#rice-bowls",
+    "category": "Menu",
+    "desc": "Japanese-style fried chicken thigh with pickled onion, scallion, spicy mayo, and sweet soy sauce.",
+    "tags": ["rice bowl","karaage","fried chicken","spicy mayo","sweet soy","donburi","chicken"]
+  },
+
+  { "title": "Tuna Mayo Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Canned tuna and mayonnaise.",
+    "tags": ["onigiri","rice ball","tuna","mayo","snack"]
+  },
+  { "title": "Buldak Corn + Tuna Mayo Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Spicy buldak sauce, tuna, corn, and mayonnaise.",
+    "tags": ["onigiri","rice ball","buldak","spicy","tuna","corn","mayo"]
+  },
+  { "title": "Mentaiko Mayo Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Mentaiko (fish roe) and mayonnaise.",
+    "tags": ["onigiri","rice ball","mentaiko","roe","mayo","seafood"]
+  },
+  { "title": "Spicy Tuna Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Raw tuna with spicy gochujang sauce.",
+    "tags": ["onigiri","rice ball","tuna","spicy","gochujang","seafood"]
+  },
+  { "title": "Spicy Salmon Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Raw salmon with spicy gochujang sauce and sushi rice.",
+    "tags": ["onigiri","rice ball","salmon","spicy","gochujang","seafood"]
+  },
+  { "title": "Gochujang Beef Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Ground beef with gochujang sauce.",
+    "tags": ["onigiri","rice ball","beef","gochujang","spicy"]
+  },
+  { "title": "Chashu (Soy Sauce Pork Belly) Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Soy sauce–marinated pork belly.",
+    "tags": ["onigiri","rice ball","chashu","pork belly","soy sauce","pork"]
+  },
+  { "title": "Yuzu Mayo Salmon Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Boiled salmon with a hint of yuzu mayo, wrapped in rice.",
+    "tags": ["onigiri","rice ball","salmon","yuzu","mayo","seafood"]
+  },
+  { "title": "Truffle Shiitake Onigiri",
+    "url": "menu.html#onigiri",
+    "category": "Menu",
+    "desc": "Japanese shiitake mushrooms with truffle oil—rich and earthy.",
+    "tags": ["onigiri","rice ball","shiitake","mushroom","truffle","vegetarian"]
+  },
+
+  { "title": "Spam Musubi",
+    "url": "menu.html#musubi",
+    "category": "Menu",
+    "desc": "Grilled spam on rice wrapped in nori, seasoned with soy sauce.",
+    "tags": ["musubi","spam","nori","rice","soy","hawaiian"]
+  },
+  { "title": "Spam + Egg Musubi",
+    "url": "menu.html#musubi",
+    "category": "Menu",
+    "desc": "Grilled spam and egg on rice wrapped in nori with soy sauce.",
+    "tags": ["musubi","spam","egg","nori","rice","soy"]
+  },
+
+  { "title": "Ebi (Prawn) Katsu Sando",
+    "url": "menu.html#sando",
+    "category": "Menu",
+    "desc": "Crispy prawn katsu in soft bread.",
+    "tags": ["sando","katsu","ebi","prawn","shrimp","sandwich","seafood"]
+  },
+  { "title": "Chicken Katsu Sando",
+    "url": "menu.html#sando",
+    "category": "Menu",
+    "desc": "Crispy chicken cutlet, cabbage, tonkatsu sauce in soft bread.",
+    "tags": ["sando","katsu","chicken","tonkatsu sauce","sandwich"]
+  },
+  { "title": "Soft Shell Crab Sando",
+    "url": "menu.html#sando",
+    "category": "Menu",
+    "desc": "Crispy fried soft-shell crab, cabbage, tangy sauce.",
+    "tags": ["sando","soft shell crab","seafood","sandwich"]
+  },
+  { "title": "Tamago Sando",
+    "url": "menu.html#sando",
+    "category": "Menu",
+    "desc": "Japanese egg salad with fluffy, slightly sweet tamago.",
+    "tags": ["sando","tamago","egg salad","vegetarian","sandwich"]
+  },
+  { "title": "Seasonal Fruit Sando",
+    "url": "menu.html#sando",
+    "category": "Menu",
+    "desc": "Fresh seasonal fruits and whipped cream in shokupan.",
+    "tags": ["sando","fruit","dessert","whipped cream","sandwich","sweet"]
+  },
+
+  { "title": "Yuzu Passion Fruit Ade",
+    "url": "menu.html#drinks",
+    "category": "Menu",
+    "desc": "Refreshing citrus yuzu with tropical passion fruit.",
+    "tags": ["drink","ade","yuzu","passion fruit","beverage"]
+  },
+  { "title": "Strawberry Peach Ade",
+    "url": "menu.html#drinks",
+    "category": "Menu",
+    "desc": "Sweet strawberry and juicy peach, lightly sparkling.",
+    "tags": ["drink","ade","strawberry","peach","sparkling","beverage"]
+  },
+
+  { "title": "Matcha Strawberry Bingsu",
+    "url": "menu.html#bingsu",
+    "category": "Menu",
+    "desc": "Shaved ice with matcha syrup, fresh strawberries, condensed milk.",
+    "tags": ["bingsu","dessert","matcha","strawberry","shaved ice","sweet"]
+  },
+  { "title": "Vietnamese Coffee Bingsu",
+    "url": "menu.html#bingsu",
+    "category": "Menu",
+    "desc": "Shaved ice infused with strong Vietnamese coffee and condensed milk.",
+    "tags": ["bingsu","dessert","coffee","condensed milk","shaved ice","sweet"]
+  },
+  { "title": "Mango Bingsu",
+    "url": "menu.html#bingsu",
+    "category": "Menu",
+    "desc": "Shaved ice topped with sweet mango chunks and mango syrup.",
+    "tags": ["bingsu","dessert","mango","shaved ice","sweet","fruit"]
+  },
+
+  {
+    "title": "Location",
+    "url": "location.html",
+    "category": "Info",
+    "desc": "620A 17 Ave SW, Calgary, AB T2S 0B4. Hours daily; street parking; transit nearby.",
+    "tags": ["location","address","map","parking","transit","hours"]
+  },
+  {
+    "title": "Hours",
+    "url": "location.html#hours",
+    "category": "Info",
+    "desc": "Sun–Thu 11 a.m.–10 p.m.; Fri–Sat 11 a.m.–1 a.m.",
+    "tags": ["hours","open","closing","time"]
+  },
+  {
+    "title": "Parking",
+    "url": "location.html#parking",
+    "category": "Info",
+    "desc": "Street parking on 17 Ave SW. Free after 6 p.m. on most side streets.",
+    "tags": ["parking","street parking","free after 6 pm"]
+  },
+  {
+    "title": "Transit",
+    "url": "location.html#transit",
+    "category": "Info",
+    "desc": "Closest stop: 17 Ave SW / 8 St SW. Routes 2, 6, and 7. ~3-minute walk.",
+    "tags": ["transit","bus","routes 2 6 7","public transport","directions"]
+  },
+  {
+    "title": "Contact",
+    "url": "contact.html",
+    "category": "Info",
+    "desc": "Contact and inquiries.",
+    "tags": ["contact","email","phone","message"]
+  },
+  {
+    "title": "Menu (All)",
+    "url": "menu.html",
+    "category": "Info",
+    "desc": "Browse all categories: Ramen, Rice Bowls, Onigiri, Musubi, Sando, Drinks, Bingsu.",
+    "tags": ["menu","food","ramen","onigiri","sando","drinks","dessert"]
+  }
+]

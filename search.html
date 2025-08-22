@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Search • Koko</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="search-page">
+  <!-- reuse your same header here -->
+  <header class="site-header">
+  <div class="container nav-container">
+    <!-- left logo -->
+    <a href="index.html" class="logo">
+      <img src="assets/logos/babytiger.png"
+       alt="Koko baby tiger logo"
+       width="120" height="120" />
+    </a>
+
+    <!-- MOBILE SEARCH (shown ≤915px; desktop keeps using nav-center form) -->
+    <form class="nav-search-form nav-search-form--mobile" action="search.html" role="search">
+      <input
+        type="search"
+        class="nav-search nav-search--mobile"
+        name="q"
+        placeholder="Search…"
+        aria-label="Search site"
+      />
+    </form>
+
+    <!-- center links + search (desktop only) -->
+    <div class="nav-center">
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="location.html">LOCATION</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <form class="nav-search-form" action="search.html" role="search">
+        <input
+          type="search"
+          class="nav-search"
+          name="q"
+          placeholder="Search…"
+          aria-label="Search site"
+        />
+      </form>
+    </div>
+
+    <!-- right icons (desktop only) -->
+    <div class="nav-right">
+      <a href="https://www.instagram.com/eatkoko.co/?hl=en" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="assets/icons/Instagram.png" alt="Instagram" class="nav-icon" />
+      </a>
+      <a href="https://www.ubereats.com/ca/store/koko-japanese-eatery/v2n2s-fLUFajK1IIgFMmdw?srsltid=AfmBOooQx38epPySVjvlirUIBgheRHrNhUKoY4Lw600LXWlp9isM7NgP"
+         target="_blank" rel="noopener" aria-label="Order on Uber Eats">
+        <img src="assets/icons/Uber.svg" alt="Uber Eats" class="nav-icon" />
+      </a>
+    </div>
+
+    <!-- mobile toggle (single button – no nesting) -->
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<nav id="mobile-drawer" class="mobile-drawer" aria-hidden="true">
+  <div class="mobile-drawer__inner">
+    <ul class="mobile-drawer__list" role="menu">
+      <li role="none"><a role="menuitem" href="index.html">HOME</a></li>
+      <li role="none"><a role="menuitem" href="menu.html">MENU</a></li>
+      <li role="none"><a role="menuitem" href="location.html">LOCATION</a></li>
+      <li role="none"><a role="menuitem" href="contact.html">CONTACT</a></li>
+
+      <!-- social row directly under the links -->
+      <li role="none" class="mobile-social">
+        <a class="drawer-social" href="https://www.instagram.com/eatkoko.co/?hl=en"
+           target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="assets/icons/Instagram.png" alt="">
+        </a>
+        <a class="drawer-social" href="https://www.ubereats.com/ca/store/koko-japanese-eatery/v2n2s-fLUFajK1IIgFMmdw?srsltid=AfmBOooQx38epPySVjvlirUIBgheRHrNhUKoY4Lw600LXWlp9isM7NgP"
+           target="_blank" rel="noopener" aria-label="Order on Uber Eats">
+          <img src="assets/icons/Uber.svg" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Mobile drawer (stays in DOM; only used ≤915px) -->
+  <nav id="mobile-drawer" class="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer__inner">
+      <ul class="mobile-drawer__list" role="menu">
+        <li role="none"><a role="menuitem" href="index.html">home</a></li>
+        <li role="none"><a role="menuitem" href="menu.html">menu</a></li>
+        <li role="none"><a role="menuitem" href="location.html">location</a></li>
+        <li role="none"><a role="menuitem" href="contact.html">contact</a></li>
+      </ul>
+
+      <div class="mobile-drawer__footer">
+        <a href="https://www.instagram.com/eatkoko.co/?hl=en" target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="assets/icons/Instagram.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="search-main container">
+    <header class="search-hero">
+      <h1 class="search-title">
+        Search results for <span id="search-query">…</span>
+      </h1>
+      <span id="search-count" class="search-count-chip" hidden></span>
+    </header>
+
+    <div id="search-results" class="search-results"></div>
+  </main>
+
+  <script src="js/sticky-header.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/mobile-nav.js" defer></script>
+</body>
+</html>

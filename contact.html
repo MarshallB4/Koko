@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>Koko Japanese Eatery</title>
+
+  <link rel="icon" href="assets/logos/babytiger.png" />
+
+ 
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container nav-container">
+    <!-- left logo -->
+    <a href="index.html" class="logo">
+      <img src="assets/logos/babytiger.png"
+       alt="Koko baby tiger logo"
+       width="120" height="120" />
+    </a>
+
+    <!-- MOBILE SEARCH (shown ≤915px; desktop keeps using nav-center form) -->
+    <form class="nav-search-form nav-search-form--mobile" action="search.html" role="search">
+      <input
+        type="search"
+        class="nav-search nav-search--mobile"
+        name="q"
+        placeholder="Search…"
+        aria-label="Search site"
+      />
+    </form>
+
+    <!-- center links + search (desktop only) -->
+    <div class="nav-center">
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="location.html">LOCATION</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <form class="nav-search-form" action="search.html" role="search">
+        <input
+          type="search"
+          class="nav-search"
+          name="q"
+          placeholder="Search…"
+          aria-label="Search site"
+        />
+      </form>
+    </div>
+
+    <!-- right icons (desktop only) -->
+    <div class="nav-right">
+      <a href="https://www.instagram.com/eatkoko.co/?hl=en" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="assets/icons/Instagram.png" alt="Instagram" class="nav-icon" />
+      </a>
+      <a href="https://www.ubereats.com/ca/store/koko-japanese-eatery/v2n2s-fLUFajK1IIgFMmdw?srsltid=AfmBOooQx38epPySVjvlirUIBgheRHrNhUKoY4Lw600LXWlp9isM7NgP"
+         target="_blank" rel="noopener" aria-label="Order on Uber Eats">
+        <img src="assets/icons/Uber.svg" alt="Uber Eats" class="nav-icon" />
+      </a>
+    </div>
+
+    <!-- mobile toggle (single button – no nesting) -->
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<nav id="mobile-drawer" class="mobile-drawer" aria-hidden="true">
+  <div class="mobile-drawer__inner">
+    <ul class="mobile-drawer__list" role="menu">
+      <li role="none"><a role="menuitem" href="index.html">HOME</a></li>
+      <li role="none"><a role="menuitem" href="menu.html">MENU</a></li>
+      <li role="none"><a role="menuitem" href="location.html">LOCATION</a></li>
+      <li role="none"><a role="menuitem" href="contact.html">CONTACT</a></li>
+
+      <!-- social row directly under the links -->
+      <li role="none" class="mobile-social">
+        <a class="drawer-social" href="https://www.instagram.com/eatkoko.co/?hl=en"
+           target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="assets/icons/Instagram.png" alt="">
+        </a>
+        <a class="drawer-social" href="https://www.ubereats.com/ca/store/koko-japanese-eatery/v2n2s-fLUFajK1IIgFMmdw?srsltid=AfmBOooQx38epPySVjvlirUIBgheRHrNhUKoY4Lw600LXWlp9isM7NgP"
+           target="_blank" rel="noopener" aria-label="Order on Uber Eats">
+          <img src="assets/icons/Uber.svg" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<main class="contact-page">
+  <!-- Hero banner (use any wide image you like) -->
+  <section class="container contact-hero" aria-label="Contact page hero">
+    <img src="assets/images/contacthero.webp" alt="Koko banner" />
+  </section>
+
+  
+
+  <!-- Contact form -->
+<section class="container contact-form" aria-labelledby="contact-form-title">
+  <h3 id="contact-form-title">
+    Have a question, comment, or special request? Get in touch with us below!
+  </h3>
+
+  <!-- Formspree (replace YOUR_FORM_ID) -->
+  <form id="contactForm" action="https://formspree.io/f/xldlqjzk" method="POST">
+  <!-- Honeypot: bots will fill this, humans won't -->
+  <input type="text"
+         name="_gotcha"
+         tabindex="-1"
+         autocomplete="off"
+         aria-hidden="true"
+         style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+
+  <label>
+    <span class="pill-red">Name</span>
+    <input class="form-input" type="text" name="name" placeholder="Your full name" required />
+  </label>
+
+  <label>
+    <span class="pill-red">Email</span>
+    <input class="form-input" type="email" name="email" placeholder="you@email.com" required />
+  </label>
+
+  <label>
+    <span class="pill-red">Phone</span>
+    <input class="form-input" type="tel" name="phone" placeholder="(xxx) xxx-xxxx" />
+  </label>
+
+  <label class="full">
+    <span class="pill-red">Message</span>
+    <textarea class="form-input" name="message" rows="5" placeholder="How can we help?" required></textarea>
+  </label>
+
+  <button class="menu-cta" type="submit">Submit</button>
+  <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
+</form>
+
+
+</section>
+
+</main>
+
+
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/logos/primary_black.png" alt="Koko logo" />
+      </a>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html">HOME</a>
+      <a href="menu.html">MENU</a>
+      <a href="location.html">LOCATION</a>
+      <a href="contact.html">CONTACT</a>
+      <a id="footer-faq-link" href="#faq" role="button" data-noactive>FAQ</a>
+    </nav>
+
+    <div class="social">
+      <a href="https://instagram.com/yourkokoaccount" target="_blank" rel="noopener">
+        <img src="assets/icons/Instagram.png" alt="Instagram" />
+      </a>
+      <a href="https://www.ubereats.com/yourkoko" target="_blank" rel="noopener">
+        <img src="assets/icons/Uber.svg" alt="Uber Eats" />
+      </a>
+    </div>
+
+    <div class="bottom-bar">
+      &copy; <span id="current-year"></span> Koko Japanese Eatery. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<!-- FAQ Modal (place near end of body) -->
+<div id="faq-modal" class="faq-backdrop" aria-hidden="true">
+  <div class="faq-dialog" role="dialog" aria-modal="true" aria-labelledby="faq-title" aria-describedby="faq-desc">
+    <button class="faq-close" type="button" aria-label="Close FAQ" data-faq-close>&times;</button>
+
+    <h2 id="faq-title" class="faq-title">Frequently Asked Questions</h2>
+    <p id="faq-desc" class="faq-desc">Answers to common questions about Koko.</p>
+
+    <div class="faq-list">
+      <details>
+        <summary>What is a Musubi?</summary>
+        <p><strong>Musubi</strong> (often Spam musubi) is a block of seasoned rice topped with grilled spam and wrapped with nori. It’s a Hawaiʻi classic with Japanese influence—savory, portable, and super satisfying.</p>
+      </details>
+
+      <details>
+        <summary>What is an Onigiri?</summary>
+        <p><strong>Onigiri</strong> is a Japanese rice ball (often triangle-shaped) with fillings like salmon, tuna mayo, or pickled plum. Usually wrapped in nori for grip and flavor.</p>
+      </details>
+
+      <details>
+        <summary>What is a Sando?</summary>
+        <p><strong>Sando</strong> is a Japanese sandwich made with soft milk bread (shokupan). Fillings can be katsu (breaded cutlet), egg salad, fruit &amp; cream, and more.</p>
+      </details>
+
+      <details>
+        <summary>Who is Koko’s sister company?</summary>
+        <p><strong>Ryuko</strong> is Koko’s sister brand.</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/sticky-header.js" defer></script>
+<script src="js/faq.js" defer></script>
+  <!-- place before </body> -->
+<script src="js/mobile-nav.js" defer></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('contactForm');
+  if (!form) return;
+  const status = form.querySelector('.form-msg');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.classList.remove('is-success','is-error');
+    status.textContent = 'Sending…';
+
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (res.ok) {
+        form.reset();
+        status.textContent = 'Thanks! We got your message.';
+        status.classList.add('is-success');
+      } else {
+        const data = await res.json().catch(() => ({}));
+        const msg = (data.errors && data.errors.map(e => e.message).join(', ')) ||
+                    'Something went wrong. Please try again.';
+        status.textContent = msg;
+        status.classList.add('is-error');
+      }
+    } catch {
+      status.textContent = 'Network error. Please try again.';
+      status.classList.add('is-error');
+    }
+  });
+});
+</script>
+
+
+<script>
+  // year helper
+  document.addEventListener('DOMContentLoaded', () => {
+    const y = document.getElementById('current-year');
+    if (y) y.textContent = new Date().getFullYear();
+  });
+</script>
+
+</body>
+</html>
